@@ -12,7 +12,9 @@
     align-items: center;
     justify-content: space-between; 
     padding: 2rem;
-    background-color: white;
+    background-color: transparent;
+    max-height: 3rem;
+
 }
 
 .logo {
@@ -89,6 +91,7 @@
 .navbar.visible {
     opacity: 1;
     visibility: visible;
+    z-index: 1;
 }
 
 
@@ -113,6 +116,29 @@
 
 }
 
+/* Building the body */
+
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.hero img {
+    width: 100%;
+    object-fit: cover;
+    margin: 5px;
+}
+
+.hero-content {
+    position: absolute;
+    max-width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+}
 
 
 
