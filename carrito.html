@@ -52,7 +52,7 @@
             </li>
 
             <li>
-                <a href="./carrito.html" class="boton-menu boton-carrito">Carrito</a>
+                <a href="./carrito.html" class="boton-menu boton-carrito active">Carrito</a>
             </li>
 
 
@@ -62,14 +62,77 @@
 
         <div class="bottom-wrapper">
 
-            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
-            <div id="contenedor-productos" class="contenedor-productos">
-            <!-- Esto se va a rellenar con JS -->
+            <h2 class="titulo-principal">Carrito</h2>
+            <div class="contenedor-carrito">
+                <p id="carrito-vacio" class="carrito-vacio">Tu carrito está vacío. </p>
+
+                <div id="carrito-productos" class="carrito-productos disabled">
+                    
+                    <div class="carrito-producto">
+                    
+                        <img src="./img/abrigos/01.jpg" alt="">
+                        <div class="carrito-producto-titulo">
+                            <small>Titulo</small>
+                            <h3>Abrigo 01</h3>
+                        </div>
+                        <div class="carrito-producto-cantidad">
+                            <small>Cantidad</small>
+                            <p>1</p>
+                        </div>
+                        
+                        <div class="carrito-producto-precio">
+                            <small>Precio</small>
+                            <p>$1000</p>
+                        </div>
+
+                        <div class="carrito-producto-subtotal">
+                            <small>Subtotal</small>
+                            <p>$1000</p>
+                        </div>
+                        <button class="carrito-producto-eliminar"><i class="bi bi-trash-fill"></i></button>
+
+                    </div>
+                </div>        
+                <div class="carrito-producto">
+                    
+                    <img src="./img/abrigos/02.jpg" alt="">
+                    <div class="carrito-producto-titulo">
+                        <small>Titulo</small>
+                        <h3>Abrigo 02</h3>
+                    </div>
+                    <div class="carrito-producto-cantidad">
+                        <small>Cantidad</small>
+                        <p>1</p>
+                    </div>
+                    
+                    <div class="carrito-producto-precio">
+                        <small>Precio</small>
+                        <p>$1000</p>
+                    </div>
+
+                    <div class="carrito-producto-subtotal">
+                        <small>Subtotal</small>
+                        <p>$1000</p>
+                    </div>
+                    <button class="carrito-producto-eliminar"><i class="bi bi-trash-fill"></i></button>
+
+                </div>
+            </div>      
+                <div id="carrito-acciones" class="carrito-acciones disabled">
+                    <div class="carrito-acciones-izquierda">
+                        <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar carrito</button>
+                    </div>
+                    <div class="carrito-acciones-derecha">
+                        <div class="carrito-acciones-total">
+                            <p>Total:</p>
+                            <p id="total">$3000</p>
+                        </div>
+                        <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar ahora</button>
+                    </div>
+                </div>
+
+
             </div>
-            
-
-        </div>
-
 
 
     </section>
