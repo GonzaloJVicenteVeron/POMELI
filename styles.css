@@ -188,7 +188,7 @@
     transition: background-color 0.2s , color .2s;
 }
 
-.numerodecarrito {
+.numerito {
     background-color: white;
     color: black;
     padding: .25rem ;
@@ -268,7 +268,8 @@
     text-decoration: none;
 }
 
-.carrito-vacio {
+.carrito-vacio,
+.carrito-comprado{
     display: none;
     color:#000000 ;
 }
