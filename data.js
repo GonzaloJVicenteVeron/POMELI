@@ -217,8 +217,8 @@ cargarProductos (productos);
 botonesCategorias.forEach (boton => {
     boton.addEventListener ("click", (e) =>{
 
-   
-   if(e.currentTarget.id != "todos"){
+
+if(e.currentTarget.id != "todos"){
     const productoCategoria = productos.find (producto => producto.categoria.id === e.currentTarget.id);    
     tituloPrincipal.innerText = productoCategoria.categoria.nombre;
     const productosBoton = productos.filter (producto => producto.categoria.id === e.currentTarget.id);
@@ -229,7 +229,7 @@ botonesCategorias.forEach (boton => {
         cargarProductos (productos);
     }
     })
-})
+});
 
 
 
