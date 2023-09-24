@@ -357,6 +357,8 @@
     cursor: pointer;
 }
 
+/* Benefits */
+
 .Cards {    
     padding: 10px;
     margin: 45px;
@@ -437,3 +439,7 @@
     align-items: center;
     
 }
+
+
+/* Form */
+
