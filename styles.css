@@ -11,6 +11,10 @@
     outline: none;
 }
 
+body {
+    scroll-behavior: smooth;
+}
+
 /* NAVBAR */
 
 .header {
@@ -90,7 +94,7 @@
     bottom: 0;
     padding: 2rem;
     background-color: #1c1c1c ;
-    box-shadow: 0 0 0 100vmax rgba(0,0,0, .5);
+    /* box-shadow: 0 0 0 100vmax rgba(0,0,0, .5); */
     gap: 3rem;
 }
 
