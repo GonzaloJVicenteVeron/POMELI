@@ -1,0 +1,228 @@
+@media screen and (min-width: 320px) {
+    .hero-content h2  {
+        font-size: 15px;
+    }
+    
+    .hero-content p {
+        font-size: 10px;
+    }
+
+    .top-wrapper ul  {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        list-style: none;
+    }
+
+    .titulo-principal {
+        margin: 15px;
+    }
+
+    .contenedor-productos {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .Cards {
+        border: none;
+        height: 1000px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .cards-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        justify-content: center;
+        
+    }
+
+    .cards-advantages {
+        flex-direction: column;
+
+    }
+
+
+    .formulario-de-contacto {
+        margin-top: 400px;
+    }
+    
+
+}
+
+@media screen and (min-width: 346px) {
+    .formulario-de-contacto {
+        margin-top: 300px;
+    }
+    
+}
+
+@media screen and (min-width: 490px){
+    .hero-content h2  {
+        font-size: 20px;
+    }
+    
+    .hero-content p {
+        font-size: 15px;
+    }
+    
+    .formulario-de-contacto {
+        margin-top: 250px;
+    }
+    
+}
+
+@media screen and (min-width: 530px) {
+    .formulario-de-contacto {
+        margin-top: 200px;
+    }
+    
+    
+}
+
+@media screen and (min-width : 642px) {
+    .top-wrapper ul {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width : 654px) {
+    .Cards {    
+        padding: 10px;
+        margin: 45px;
+        height: 500px;
+        border: solid;
+        border-radius: 0.2rem;
+    }
+    
+    .cards-advantages img {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 150px;
+    }
+
+
+    
+    .cards-top h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        font-weight: 200px;
+        text-align: center;
+        margin-left: 25px;
+    }
+    
+    .cards-top p {
+        font-family: 'Roboto Slab', serif ;
+        font-size: 20px;
+        letter-spacing: 1.5px;
+        text-align: center;
+        margin-left: 20px;
+    }
+    
+    .cards-advantages {
+        display: flex ;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+        flex-direction: row;
+    }
+    
+    .cards-advantages h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        font-weight: 200px;
+    }
+    
+    .cards-advantages p {
+        font-family: 'Roboto Slab', serif ;
+        font-size: 16px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    
+    .cards-advantages-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    
+    .cards-advantages-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    
+    .cards-advantages-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .formulario-de-contacto {
+        margin-top: 50px;
+    }
+    
+}
+
+@media screen and (min-width: 723px) {
+    .contenedor-productos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+    }
+    .Cards {    
+        margin: 10px;
+        padding-bottom: 5px;
+        height: 400px;
+    }
+    
+}
+
+/* Carrito */
+
+@media screen and (max-width: 422px){
+    .carrito-producto {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+    .carrito-producto-titulo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .carrito-producto-cantidad {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .carrito-producto-subtotal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carrito-acciones {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+    }
+}
