@@ -13,4 +13,3 @@ cerrar.addEventListener ("click", () => {
     navbar.classList.remove ("visible");
 });
 
-
